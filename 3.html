@@ -28,7 +28,7 @@
   function validateForm() {
     var svar = document.forms["contactForm"]["answer"].value.toLowerCase();
 
-    if (svar == "sanna juhlin"){
+    if (svar == "sanna juhlin" || svar == "juhlin, sanna" || svar == "juhlin sanna" ){
        
         
         sessionStorage.setItem('uppdrag3', 'klart');
@@ -118,7 +118,6 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Svar</h2>
-            <h3 class="section-subheading text-muted">Svara på frågan för att ta dig vidare</h3>
           </div>
         </div>
         <div class="row">
